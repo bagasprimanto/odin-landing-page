@@ -34,7 +34,7 @@ a {
 }
 
 .navbar-hero {
-    width: 80%;
+    width: 75%;
 }
 
 .header-logo > img {
@@ -72,7 +72,8 @@ a {
 }
 
 .hero-body-left {
-    margin-right: 32px;
+    margin-right: auto;
+    max-width: 480px;
 }
 
 .hero-image img {
@@ -112,6 +113,7 @@ a {
     display: flex;
     align-items: baseline;
     justify-content: center;
+    padding-bottom: 64px;
 }
 
 .tile-title {
@@ -137,4 +139,66 @@ a {
 
 .tile-cells .tile-description {
     color: #8c8c8d; 
+}
+
+/* Quote styles */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 120px;
+}
+
+.quote-text-author {
+    width: 75%;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 24px;
+}
+
+.quote .quote-author {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 60px;
+    text-align: right;
+}
+
+/* Call to action styles */
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    padding: 36px 64px;
+}
+
+.box-left {
+    color: #F9FAF8;
+}
+
+.box-left > .title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.sign-up-button.second {
+    border: solid 1px #F9FAF8;
 }
