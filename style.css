@@ -11,6 +11,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body {
+    flex: 1;
 }
 
 /* Header styles */
@@ -34,7 +40,7 @@ a {
 }
 
 .navbar-hero {
-    width: 75%;
+    max-width: 4800px;
 }
 
 .header-logo > img {
@@ -201,4 +207,15 @@ a {
 
 .sign-up-button.second {
     border: solid 1px #F9FAF8;
+}
+
+/* Footer styles */
+
+.footer {
+    align-items: center;
+    background-color: #1F2937; 
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 42px 0;
 }
