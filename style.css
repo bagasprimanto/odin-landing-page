@@ -13,6 +13,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header styles */
+
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -26,6 +28,13 @@ a {
 
 .hero {
     background-color: #1F2937; 
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-hero {
+    width: 75%;
 }
 
 .header-logo > img {
@@ -43,10 +52,6 @@ a {
     align-items: center;
 }
 
-.navbar {
-    padding: 8px 80px;
-}
-
 .header-logo {
     margin-right: auto;
 }
@@ -56,3 +61,45 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* Hero Body Styles */
+
+.hero-body {
+    margin-top: 56px;
+    margin-bottom: 56px;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.hero-image img {
+    width: 420px;
+    height: auto;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    font-weight: 700;
+    width: 100px;
+    text-align: center;
+}
+
+.sign-up-button a {
+    display: inline-block;
+    padding: 8px 16px;
+}
+
