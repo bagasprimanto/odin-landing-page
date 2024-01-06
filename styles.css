@@ -38,6 +38,7 @@ a {
 .hero-background {
     display: flex;
     justify-content: center;
+    margin-bottom: 48px;
 }
 
 .hero-background, .footer {
@@ -45,7 +46,7 @@ a {
 }
 
 .hero {
-    width: 60%;
+    width: 80%;
 }
 
 .header {
@@ -96,9 +97,41 @@ a {
     width: 84px;
 }
 
+.random-information {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.subheader {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.squares div {
+    width: 200px;
+}
+
+.squares img {
+    width: 200px;
+    height: auto;
+    border: 4px #3662F6 solid;
+    border-radius: 25px;
+}
+
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 28px 0;
 }
+
