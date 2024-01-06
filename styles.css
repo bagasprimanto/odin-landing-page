@@ -70,8 +70,9 @@ a {
 }
 
 .hero-desc {
-    display: flex;
     align-items: center;
+    display: flex;
+    gap: 24px;
     margin-top: 64px;
     margin-bottom: 100px;
 }
